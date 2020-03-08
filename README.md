@@ -1,2 +1,2 @@
-Stardew Valley Planting Schedule Crop-timizer.
+## Stardew Valley Planting Schedule Crop-timizer.
 
