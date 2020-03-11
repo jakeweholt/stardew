@@ -1,24 +1,3 @@
-type ApiResponse = {
-  // A copy of the options JSON that led to these results
-  options: StardewConfig,
-  // results are an array of Schedules, ordered by profitability
-  results: Schedule[]
-}
-
-// A schedule is a sequence of crops whose harvests fit
-// within the specified period, but the post-harvest
-// parts of a routine can extend beyond the period.
-
-type Schedule = {
-  // open to other things here, eg array of profit per day, whatever
-  totalProfit: number,
-  // An array of routines in chronological order.
-  // Routines can overlap as long as two crops are
-  // never alive at the same time.
-  // A routine can extend beyond the day of the month
-  routines: Routine[]
-}
-
 // A routine is a series of events describing
 // the entire lifecycle of one crop on one tile.
 
@@ -81,4 +60,44 @@ type Routine = {
 
   // The total profit for one tile with this routine
   profit: number
+}
+
+// A schedule is a sequence of crops whose harvests fit
+// within the specified period, but the post-harvest
+// parts of a routine can extend beyond the period.
+
+type Schedule = {
+  // open to other things here, eg array of profit per day, whatever
+  totalProfit: number,
+  // An array of routines in chronological order.
+  // Routines can overlap as long as two crops are
+  // never alive at the same time.
+  // A routine can extend beyond the day of the month
+  routines: Routine[]
+}
+
+// -------------------------------
+// API Responses
+// -------------------------------
+
+// A ranking answers the question
+//   "whats the most profitable single crop routine I could plant?"
+
+// A schedule answers the question:
+//   "what's the most profitable series of crop routines I can plant?"
+
+type RoutineRespone = {
+  // A copy of the options JSON that led to these results
+  options: StardewConfig,
+  // an array of routines for each [crop x process] combo,
+  // ordered by profit
+  results: Routine[]
+}
+
+
+type ScheduleResponse = {
+  // A copy of the options JSON that led to these results
+  options: StardewConfig,
+  // top 5(?) schedules, ordered by profit
+  results: Schedule[]
 }
