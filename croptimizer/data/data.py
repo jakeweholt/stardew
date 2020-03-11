@@ -1,4 +1,4 @@
-from crops import crops
+from croptimizer.data.crops import crops
 
 ratios = {
 	"none": [
@@ -207,9 +207,9 @@ fertilizers = [
 	}
 ];
 
-seasons = [
-	{
-		"name": "Spring",
+seasons = {
+	'spring':{
+		"name": "spring",
 		"duration": 28,
 		"crops": [
             crops['coffeebean'],
@@ -226,8 +226,8 @@ seasons = [
             crops['ancientfruit']
 		]
 	},
-	{
-		"name": "Summer",
+	'summer':{
+		"name": "summer",
 		"duration": 28,
 		"crops": [
             crops['blueberry'],
@@ -247,8 +247,8 @@ seasons = [
             crops['ancientfruit']
 		]
 	},
-	{
-		"name": "Fall",
+	'fall':{
+		"name": "fall",
 		"duration": 28,
 		"crops": [
             crops['sweetgemberry'],
@@ -268,8 +268,8 @@ seasons = [
             crops['ancientfruit']
 		]
 	},
-	{
-		"name": "Greenhouse",
+	'greenhouse':{
+		"name": "greenhouse",
 		"duration": 112,
 		"crops": [
             crops['coffeebean'],
@@ -310,4 +310,4 @@ seasons = [
             crops['ancientfruit']
 		]
 	}
-];
+}

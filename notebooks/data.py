@@ -209,7 +209,7 @@ fertilizers = [
 
 seasons = [
 	{
-		"name": "Spring",
+		"name": "spring",
 		"duration": 28,
 		"crops": [
             crops['coffeebean'],
@@ -227,7 +227,7 @@ seasons = [
 		]
 	},
 	{
-		"name": "Summer",
+		"name": "summer",
 		"duration": 28,
 		"crops": [
             crops['blueberry'],
@@ -248,7 +248,7 @@ seasons = [
 		]
 	},
 	{
-		"name": "Fall",
+		"name": "fall",
 		"duration": 28,
 		"crops": [
             crops['sweetgemberry'],
@@ -269,7 +269,7 @@ seasons = [
 		]
 	},
 	{
-		"name": "Greenhouse",
+		"name": "greenhouse",
 		"duration": 112,
 		"crops": [
             crops['coffeebean'],
