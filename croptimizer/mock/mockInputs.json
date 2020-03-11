@@ -1,0 +1,427 @@
+{
+  "firstDay": {
+    "desc": "Easy mode. Day one of year zero",
+    "data": { 
+      "climate": "spring",
+      "supplement": "none",
+      "projectionLength": 28,
+      "multiSeason": false,
+      "useRaw": true,
+      "useJar": false,
+      "useKeg": false,
+      "freeSeeds": false,
+      "vendors": {
+        "pierre": true,
+        "jojamart": true,
+        "oasis": false,
+        "cart": false,
+        "events": false
+      },
+      "character": {
+        "level": 0,
+        "hasTiller": false,
+        "levelTenPerk": "none"
+      }
+    }
+  },
+  "greenhouseShort": {
+    "desc": "Greenhouse, short duration",
+    "data": {
+      "climate": "greenhouse",
+      "supplement": "none",
+      "projectionLength": 28,
+      "multiSeason": true,
+      "useRaw": true,
+      "useJar": false,
+      "useKeg": false,
+      "freeSeeds": false,
+      "vendors": {
+        "pierre": true,
+        "jojamart": true,
+        "oasis": false,
+        "cart": false,
+        "events": false
+      },
+      "character": {
+        "level": 0,
+        "hasTiller": false,
+        "levelTenPerk": "none"
+      }
+    }
+  },
+  "greenhouseLong": {
+    "desc": "Greenhouse, long duration",
+    "data": {
+      "climate": "greenhouse",
+      "supplement": "none",
+      "projectionLength": 143,
+      "multiSeason": true,
+      "useRaw": true,
+      "useJar": false,
+      "useKeg": false,
+      "freeSeeds": false,
+      "vendors": {
+        "pierre": true,
+        "jojamart": true,
+        "oasis": false,
+        "cart": false,
+        "events": false
+      },
+      "character": {
+        "level": 0,
+        "hasTiller": false,
+        "levelTenPerk": "none"
+      }
+    }
+  },
+  "greenhouseTricky": {
+    "desc": "Greenhouse, long duration, but multiseason is off?",
+    "data": {
+      "climate": "greenhouse",
+      "supplement": "none",
+      "projectionLength": 143,
+      "multiSeason": false,
+      "useRaw": true,
+      "useJar": false,
+      "useKeg": false,
+      "freeSeeds": false,
+      "vendors": {
+        "pierre": true,
+        "jojamart": true,
+        "oasis": false,
+        "cart": false,
+        "events": false
+      },
+      "character": {
+        "level": 0,
+        "hasTiller": false,
+        "levelTenPerk": "none"
+      }
+    }
+  },
+  "halfSummerAllFall": {
+    "desc": "Multi-season. Partial summer, all of fall.",
+    "data": { 
+      "climate": "summer",
+      "supplement": "none",
+      "projectionLength": 14,
+      "multiSeason": true,
+      "useRaw": true,
+      "useJar": false,
+      "useKeg": false,
+      "freeSeeds": false,
+      "vendors": {
+        "pierre": true,
+        "jojamart": true,
+        "oasis": false,
+        "cart": false,
+        "events": false
+      },
+      "character": {
+        "level": 0,
+        "hasTiller": false,
+        "levelTenPerk": "none"
+      }
+    }
+  },
+  "allProcesses": {
+    "desc": "Every style of processing",
+    "data": { 
+      "climate": "spring",
+      "supplement": "none",
+      "projectionLength": 28,
+      "multiSeason": false,
+      "useRaw": true,
+      "useJar": true,
+      "useKeg": true,
+      "freeSeeds": false,
+      "vendors": {
+        "pierre": true,
+        "jojamart": true,
+        "oasis": false,
+        "cart": false,
+        "events": false
+      },
+      "character": {
+        "level": 0,
+        "hasTiller": false,
+        "levelTenPerk": "none"
+      }
+    }
+  },
+  "fiveRancher": {
+    "desc": "Level 5 w/o tiller perk. Should be better than 'firstDay' but worse than 'fiveTiller'",
+    "data": { 
+      "climate": "spring",
+      "supplement": "none",
+      "projectionLength": 28,
+      "multiSeason": false,
+      "useRaw": true,
+      "useJar": false,
+      "useKeg": false,
+      "freeSeeds": false,
+      "vendors": {
+        "pierre": true,
+        "jojamart": true,
+        "oasis": false,
+        "cart": false,
+        "events": false
+      },
+      "character": {
+        "level": 5,
+        "hasTiller": false,
+        "levelTenPerk": "none"
+      }
+    }
+  },
+  "fiveTiller": {
+    "desc": "Level 5 w/ tiller perk. Should out-earn 'fiveRancher'",
+    "data": { 
+      "climate": "spring",
+      "supplement": "none",
+      "projectionLength": 28,
+      "multiSeason": false,
+      "useRaw": true,
+      "useJar": false,
+      "useKeg": false,
+      "freeSeeds": false,
+      "vendors": {
+        "pierre": true,
+        "jojamart": true,
+        "oasis": false,
+        "cart": false,
+        "events": false
+      },
+      "character": {
+        "level": 5,
+        "hasTiller": true,
+        "levelTenPerk": "none"
+      }
+    }
+  },
+  "freeSeeds": {
+    "desc": "Seed costs off. Should be more profitable than 'firstDay'",
+    "data": { 
+      "climate": "spring",
+      "supplement": "none",
+      "projectionLength": 28,
+      "multiSeason": false,
+      "useRaw": true,
+      "useJar": false,
+      "useKeg": false,
+      "freeSeeds": true,
+      "vendors": {
+        "pierre": true,
+        "jojamart": true,
+        "oasis": false,
+        "cart": false,
+        "events": false
+      },
+      "character": {
+        "level": 0,
+        "hasTiller": false,
+        "levelTenPerk": "none"
+      }
+    }
+  },
+  "agriRancher": {
+    "desc": "Keg and jar returns should be lower than 'artiRancher', worse raw results than 'agriTiller'",
+    "data": { 
+      "climate": "spring",
+      "supplement": "none",
+      "projectionLength": 28,
+      "multiSeason": false,
+      "useRaw": true,
+      "useJar": true,
+      "useKeg": true,
+      "freeSeeds": true,
+      "vendors": {
+        "pierre": true,
+        "jojamart": true,
+        "oasis": false,
+        "cart": false,
+        "events": false
+      },
+      "character": {
+        "level": 10,
+        "hasTiller": false,
+        "levelTenPerk": "agriculturalist"
+      }
+    }
+  },
+  "agriTiller":{
+    "desc": "Should have better raw results than agriRancher, worse processed results than 'artiTiller'",
+    "data": { 
+      "climate": "spring",
+      "supplement": "none",
+      "projectionLength": 28,
+      "multiSeason": false,
+      "useRaw": true,
+      "useJar": true,
+      "useKeg": true,
+      "freeSeeds": true,
+      "vendors": {
+        "pierre": true,
+        "jojamart": true,
+        "oasis": false,
+        "cart": false,
+        "events": false
+      },
+      "character": {
+        "level": 10,
+        "hasTiller": true,
+        "levelTenPerk": "agriculturalist"
+      }
+    }
+  },
+  "artiRancher": {
+    "desc": "Should have better processed results than 'agriRancher'",
+    "data": {
+      "climate": "spring",
+      "supplement": "none",
+      "projectionLength": 28,
+      "multiSeason": false,
+      "useRaw": true,
+      "useJar": true,
+      "useKeg": true,
+      "freeSeeds": true,
+      "vendors": {
+        "pierre": true,
+        "jojamart": true,
+        "oasis": false,
+        "cart": false,
+        "events": false
+      },
+      "character": {
+        "level": 10,
+        "hasTiller": false,
+        "levelTenPerk": "artisan"
+      }
+    }
+  },
+  "artiTiller": {
+    "desc": "Should have better raw results than 'artiRancher', beter processed results than anyone",
+    "data": {
+      "climate": "spring",
+      "supplement": "none",
+      "projectionLength": 28,
+      "multiSeason": false,
+      "useRaw": true,
+      "useJar": true,
+      "useKeg": true,
+      "freeSeeds": true,
+      "vendors": {
+        "pierre": true,
+        "jojamart": true,
+        "oasis": false,
+        "cart": false,
+        "events": false
+      },
+      "character": {
+        "level": 10,
+        "hasTiller": true,
+        "levelTenPerk": "artisan"
+      }
+    }
+  },
+  "kindaFucked": {
+    "desc": "Three days left lol",
+    "data": { 
+      "climate": "spring",
+      "supplement": "none",
+      "projectionLength": 3,
+      "multiSeason": false,
+      "useRaw": true,
+      "useJar": false,
+      "useKeg": false,
+      "freeSeeds": false,
+      "vendors": {
+        "pierre": true,
+        "jojamart": true,
+        "oasis": false,
+        "cart": false,
+        "events": false
+      },
+      "character": {
+        "level": 0,
+        "hasTiller": false,
+        "levelTenPerk": "none"
+      }
+    }
+  },
+  "fucked": {
+    "desc": "Two days left",
+    "data": { 
+      "climate": "spring",
+      "supplement": "none",
+      "projectionLength": 2,
+      "multiSeason": false,
+      "useRaw": true,
+      "useJar": false,
+      "useKeg": false,
+      "freeSeeds": false,
+      "vendors": {
+        "pierre": true,
+        "jojamart": true,
+        "oasis": false,
+        "cart": false,
+        "events": false
+      },
+      "character": {
+        "level": 0,
+        "hasTiller": false,
+        "levelTenPerk": "none"
+      }
+    }
+  },
+  "superFucked": {
+    "desc": "One day left",
+    "data": { 
+      "climate": "spring",
+      "supplement": "none",
+      "projectionLength": 1,
+      "multiSeason": false,
+      "useRaw": true,
+      "useJar": false,
+      "useKeg": false,
+      "freeSeeds": false,
+      "vendors": {
+        "pierre": true,
+        "jojamart": true,
+        "oasis": false,
+        "cart": false,
+        "events": false
+      },
+      "character": {
+        "level": 0,
+        "hasTiller": false,
+        "levelTenPerk": "none"
+      }
+    }
+  },
+  "wacky": {
+    "desc": "All processes, end of season but multiseason on, weird vendors only",
+    "data": { 
+      "climate": "fall",
+      "supplement": "none",
+      "projectionLength": 25,
+      "multiSeason": true,
+      "useRaw": true,
+      "useJar": true,
+      "useKeg": true,
+      "freeSeeds": false,
+      "vendors": {
+        "pierre": false,
+        "jojamart": false,
+        "oasis": true,
+        "cart": true,
+        "events": true
+      },
+      "character": {
+        "level": 9,
+        "hasTiller": false,
+        "levelTenPerk": "none"
+      }
+    }
+  }
+}

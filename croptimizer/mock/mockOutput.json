@@ -1,0 +1,64 @@
+{
+  "options": {
+    "climate": "spring",
+    "supplement": "none",
+    "projectionLength": 28,
+    "multiSeason": false,
+    "useRaw": true,
+    "useJar": false,
+    "useKeg": false,
+    "freeSeeds": false,
+    "vendors": {
+      "pierre": true,
+      "jojamart": true,
+      "oasis": false,
+      "cart": false,
+      "events": false
+    },
+    "character": {
+      "level": 0,
+      "hasTiller": false,
+      "levelTenPerk": "none"
+    }
+  },
+  "results":[
+    {
+      "totalProfit": 666,
+      "routines": [
+        {
+          "cropName": "corn",
+          "purchasePrice": 100,
+          "plantDate": 0,
+          "daysAlive": 10,
+          "harvestDates": [2, 6],
+          "itemsPerHarvest": 1.2,
+          "processType": "keg",
+          "saleDates": [13, 17],
+          "profit": 420
+        },
+        {
+          "cropName": "cauliflower",
+          "purchasePrice": 7,
+          "plantDate": 10,
+          "daysAlive": 4,
+          "harvestDates": [14],
+          "itemsPerHarvest": 1,
+          "processType": "jar",
+          "saleDates": [16],
+          "profit": 69
+        },
+        {
+          "cropName": "BEEAAANNZZZZ",
+          "purchasePrice": 420,
+          "plantDate": 18,
+          "daysAlive": 10,
+          "harvestDates": [20,22,24,26,28],
+          "itemsPerHarvest": 1,
+          "processType": "raw",
+          "saleDates": [20,22,24,26,28],
+          "profit": 9001
+        }
+      ]
+    }
+  ]
+}
