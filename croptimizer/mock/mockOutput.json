@@ -30,21 +30,21 @@
           "purchasePrice": 100,
           "plantDate": 0,
           "daysAlive": 10,
-          "harvestDates": [2, 6],
+          "harvestDates": [2, 6, 10],
           "itemsPerHarvest": 1.2,
           "processType": "keg",
-          "saleDates": [13, 17],
+          "saleDates": [13, 17, 21],
           "profit": 420
         },
         {
           "cropName": "cauliflower",
           "purchasePrice": 7,
           "plantDate": 10,
-          "daysAlive": 4,
-          "harvestDates": [14],
+          "daysAlive": 8,
+          "harvestDates": [14, 18],
           "itemsPerHarvest": 1,
           "processType": "jar",
-          "saleDates": [16],
+          "saleDates": [16, 20],
           "profit": 69
         },
         {
